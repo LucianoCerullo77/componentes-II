@@ -1,10 +1,13 @@
-import Nabvar from "./components/Nabvar/Navbar";
-import Footer from "./components/Nabvar/Footer/Footer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
   return (
     <div className="App">
-      <Nabvar/>
+      <Header/>
+      <ItemListContainer title="Our Products"/>
+      <Footer/>
       
     </div>
   );
